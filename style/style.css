@@ -1,0 +1,265 @@
+:root{
+    --cor-fonte: #0000006e;
+    --cor-topo: #00cad1;
+    --cor-footer: #0c6e71;
+    --cor-branca: #fff;
+
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans 3", sans-serif;
+    color: var(--cor-fonte);
+}
+
+.container{
+    width: 60%;
+}
+
+/* ==========================================================================
+   Seção Topo
+   ========================================================================== */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-topo);
+}
+
+ header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    width: 8rem;
+}
+
+.links-topo{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.25rem;
+}
+
+.links-topo a{
+    text-decoration: none;
+    color: var(--cor-branca);
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+.links-topo a:hover{
+    color: var(--cor-footer);
+}
+
+/* ==========================================================================
+   Seção Banner
+   ========================================================================== */
+
+
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../assets/recepcao.png");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+.banner h1{
+    color: var(--cor-branca);
+    font-size: 3rem;
+    width: 50%;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+/* ==========================================================================
+   Seção Sobre
+   ========================================================================== */
+
+.sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 4rem 0;
+}
+
+.sobre .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.info-texto{
+    width: 50%;
+    text-align: center;
+}
+
+.info-texto h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.sobre-texto p{
+    line-height: 1.5rem;
+}
+
+.sobre-imagem{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* ==========================================================================
+   Seção Especialidades
+   ========================================================================== */
+
+
+.especialidades{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 4rem 0;
+}
+
+.especialidades .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.especialidades-imagem{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.especialidades-imagem figure{
+    background-color: var(--cor-branca);
+    border-radius: 4px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.especialidades-imagem figcaption{
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 1rem;
+    font-weight: 400;
+    color: var(--cor-fonte);
+}
+
+.especialidades-imagem img{
+    width: 100%;
+}
+
+.botao{
+    margin-top: 2rem;
+    background-color: var(--cor-topo);
+    text-decoration: none;
+    font-size: 1.25rem;
+    padding: 1rem;
+    border-radius: 5px;
+    color: var(--cor-branca);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+/* ==========================================================================
+   Seção Contato
+   ========================================================================== */
+
+.contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 4rem 0;
+}
+
+.contato .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contato-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.contato iframe{
+    width: 100%;
+}
+
+
+/* ==========================================================================
+   Seção Footer
+   ========================================================================== */
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    background-color: var(--cor-footer);
+}
+
+footer .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.footer-imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-imagem img{
+    width: 12rem;
+}
+
+.footer-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.footer-texto p{
+    color: var(--cor-branca);
+    font-size: 1rem;
+    text-align: center;
+    gap: 1rem;
+}
