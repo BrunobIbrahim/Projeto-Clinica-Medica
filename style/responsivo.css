@@ -1,0 +1,367 @@
+:root{
+    --cor-fonte: #0000006e;
+    --cor-topo: #00cad1;
+    --cor-footer: #0c6e71;
+    --cor-branca: #fff;
+
+}
+
+/* ================================================================================== 
+   CELULAR
+   ==================================================================================  */
+
+@media (max-width: 425px) {
+
+    .container{
+        width: 100%;
+    }
+
+/* ==========================================================================
+   Seção Topo
+   ========================================================================== */
+
+
+    header{
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: column;
+        width: 90%;
+        align-items: normal;
+
+    }
+
+    header .logo{
+      text-align: center;
+    }
+
+    .links-topo{
+        border-top: solid 1px var(--cor-fonte);
+        padding: 15px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+/* ==========================================================================
+   Seção Banner
+   ========================================================================== */
+
+
+
+    .banner{
+        height: 40vh;
+        justify-content: normal;
+
+    }
+    
+    .banner h1{
+        font-size: 2rem;
+        width: 100%;
+    }
+/* ==========================================================================
+   Seção Sobre
+   ========================================================================== */
+
+    .sobre{
+        justify-content: normal;
+    }
+
+    .info-texto{
+        width: 90%;
+    }
+
+    .sobre .info-texto h2{
+        font-size: 1.5rem;
+    }
+
+    .sobre-imagem{
+        width: 90%;
+    }
+
+    .sobre-imagem figure{
+        display: none;
+    }
+
+    .sobre-imagem div{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .sobre-imagem h3{
+        font-weight: 500;
+        margin-bottom: 15px;
+        font-size: 1.25rem;
+    }
+
+    .sobre-imagem ul{
+        width: 80%;
+    }
+
+/* ==========================================================================
+   Seção Especialidades
+   ========================================================================== */
+
+   .info-texto h2{
+    font-size: 1.25rem;
+   }
+
+   .especialidades-imagem{
+    flex-direction: column;
+    width: 80%;
+    gap: 3rem;       
+   }
+
+/* ==========================================================================
+   Seção Contato
+   ========================================================================== */
+
+   .contato .container{
+    width: 85%;
+   }
+    
+}
+
+/* ================================================================================== 
+   TABLET
+   ==================================================================================  */
+
+@media (min-width: 425px) and (max-width:768px) {
+
+        .container{
+        width: 100%;
+    }
+
+/* ==========================================================================
+   Seção Topo
+   ========================================================================== */
+
+
+    header{
+        width: 100%;
+    }
+
+    header .container{
+        width: 100%;
+        justify-content: space-between;
+
+    }
+
+    .links-topo{
+        margin-right: 1rem;
+    }
+
+/* ==========================================================================
+   Seção Banner
+   ========================================================================== */
+
+    .banner{
+        height: 50vh;
+        justify-content: normal;
+
+    }
+    
+    .banner h1{
+        font-size: 2.25rem;
+        width: 100%;
+        margin-left: 1rem;
+    }
+/* ==========================================================================
+   Seção Sobre
+   ========================================================================== */
+
+    .sobre{
+        justify-content: normal;
+    }
+
+    .info-texto{
+        width: 90%;
+    }
+
+    .sobre .info-texto h2{
+        font-size: 1.825rem;    
+    }
+
+    .sobre-imagem{
+        width: 90%;
+        justify-content: center;
+    }
+
+    .sobre-imagem figure{
+        display: none;
+    }
+
+    .sobre-imagem div{
+        width: 60%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sobre-imagem h3{
+        font-weight: 500;
+        margin-bottom: 15px;
+        font-size: 1.5rem;
+    }
+
+    .sobre-imagem ul{
+        width: 90%;
+    }
+
+/* ==========================================================================
+   Seção Especialidades
+   ========================================================================== */
+
+   .info-texto h2{
+    font-size: 1.25rem;
+   }
+
+   .especialidades-imagem{
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 3rem;       
+   }
+
+   .especialidades-imagem figure{
+    width: 40%;
+   }
+
+/* ==========================================================================
+   Seção Contato
+   ========================================================================== */
+
+   .contato .container{
+    width: 100%;
+   }
+
+   .contato-texto{
+    width: 80%;
+   }
+
+   .contato iframe{
+    width: 95%;
+   }
+   
+    
+}
+
+@media (max-width: 1440px) {
+
+
+    .container{
+        width: 90%;
+    }
+
+/* ==========================================================================
+   Seção Topo
+   ========================================================================== */
+
+
+    header{
+        width: 100%;
+    }
+
+    header .container{
+        width: 90%;
+        justify-content: space-between;
+
+    }
+
+    .links-topo{
+        margin-right: 1rem;
+    }
+
+/* ==========================================================================
+   Seção Banner
+   ========================================================================== */
+
+    .banner{
+        height: 50vh;
+        justify-content: normal;
+
+    }
+    
+    .banner h1{
+        font-size: 2.25rem;
+        width: 100%;
+        margin-left: 3rem;
+    }
+/* ==========================================================================
+   Seção Sobre
+   ========================================================================== */
+
+    
+    .info-texto{
+        width: 90%;
+    }
+
+    .sobre .info-texto h2{
+        font-size: 1.825rem;    
+    }
+
+    .sobre-imagem{
+        width: 90%;
+        justify-content: center;
+    }
+
+    .sobre-imagem figure{
+    }
+
+    .sobre-imagem div{
+        width: 50%;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sobre-imagem h3{
+        font-weight: 500;
+        margin-bottom: 15px;
+        font-size: 1.5rem;
+    }
+
+    .sobre-imagem ul{
+        width: 90%;
+    }
+
+/* ==========================================================================
+   Seção Especialidades
+   ========================================================================== */
+
+   .info-texto h2{
+    font-size: 1.25rem;
+   }
+
+   .especialidades-imagem{
+    flex-direction: row;
+    width: 100%;
+    gap: 3rem;       
+   }
+
+   .especialidades-imagem figure{
+    width: 33%;
+   }
+
+/* ==========================================================================
+   Seção Contato
+   ========================================================================== */
+
+   .contato .container{
+    width: 100%;
+   }
+
+   .contato-texto{
+    width: 80%;
+   }
+
+   .contato iframe{
+    width: 95%;
+   }
+   
+    
+}
