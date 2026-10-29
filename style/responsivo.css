@@ -128,7 +128,7 @@
    TABLET
    ==================================================================================  */
 
-@media (min-width: 425px) and (max-width:768px) {
+@media (min-width: 426px) and (max-width:768px) {
 
         .container{
         width: 100%;
@@ -249,8 +249,11 @@
     
 }
 
-@media (max-width: 1440px) {
+/* ================================================================================== 
+   Telas
+   ==================================================================================  */
 
+@media (min-width: 769px) and (max-width: 1440px) {
 
     .container{
         width: 90%;
@@ -306,9 +309,6 @@
     .sobre-imagem{
         width: 90%;
         justify-content: center;
-    }
-
-    .sobre-imagem figure{
     }
 
     .sobre-imagem div{
