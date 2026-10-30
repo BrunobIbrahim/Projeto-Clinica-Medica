@@ -1,4 +1,3 @@
-```markdown
 # 🏥 Clínica Médica
 
 Projeto desenvolvido durante meus estudos de **Desenvolvimento Web**, com o objetivo de praticar a criação de um site para uma clínica médica, aplicando conceitos de **HTML5 e CSS3**, incluindo técnicas de responsividade.
@@ -62,4 +61,4 @@ Durante o desenvolvimento deste projeto, pude praticar:
 ![Preview do projeto Clínica Médica](./assets/clinica-preview.jpg)
 
 ---
-```
+
