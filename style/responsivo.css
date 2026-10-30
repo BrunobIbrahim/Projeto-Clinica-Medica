@@ -121,7 +121,42 @@
    .contato .container{
     width: 85%;
    }
-    
+
+
+/* ==========================================================================
+   Seção Tabelas
+   ========================================================================== */
+
+   .links-box h2{
+    font-size: 1.25rem;
+
+   }
+
+   .links-especializacoes{
+    flex-wrap: wrap;
+   }
+
+   .links-especializacoes a{
+    min-width: 3rem;
+    font-size: 1rem;
+   }
+
+   .links-especializacoes a:hover{
+     font-size: 1.15rem;
+    }
+
+     .tabela-box{
+        width: 90%;
+     }
+
+    .tabela-box figure{
+        display: none;
+    }
+
+    table{
+        width: 100%;
+    }
+
 }
 
 /* ================================================================================== 
@@ -245,6 +280,41 @@
    .contato iframe{
     width: 95%;
    }
+
+/* ==========================================================================
+   Seção Tabelas
+   ========================================================================== */
+
+   .links-box h2{
+    font-size: 1.5rem;
+
+   }
+
+   .links-especializacoes{
+    flex-wrap: wrap;
+    gap: 1rem;
+   }
+
+   .links-especializacoes a{
+    min-width: 3rem;
+    font-size: 1.15rem;
+   }
+
+   .links-especializacoes a:hover{
+     font-size: 1.3rem;
+    }
+
+     .tabela-box{
+        width: 90%;
+     }
+
+    .tabela-box figure{
+        display: none;
+    }
+
+    table{
+        width: 100%;
+    }
    
     
 }

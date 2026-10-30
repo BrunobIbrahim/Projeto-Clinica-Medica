@@ -39,7 +39,7 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    min-width: 130px;
+    min-width: 8.125rem;
     padding: 3px 6px;
     box-sizing: border-box;
     text-decoration: none;
